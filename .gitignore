@@ -1,0 +1,32 @@
+# Stripe PHP Library (install via Composer)
+stripe-php/
+
+# Logs
+logs/
+*.log
+
+# Configuration with secrets
+stripe_config.php
+
+# Database files
+*.sql
+!database_table.sql.example
+!refund_tables.sql.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Qodo
+.qodo/
+
+# Environment
+.env
+.env.local

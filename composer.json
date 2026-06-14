@@ -1,0 +1,14 @@
+{
+    "name": "stripe-healthcare/payment-module",
+    "description": "PHP Stripe payment integration module for healthcare systems",
+    "type": "project",
+    "require": {
+        "stripe/stripe-php": "^13.0"
+    },
+    "autoload": {
+        "files": [
+            "stripe_config.php"
+        ]
+    },
+    "license": "MIT"
+}
