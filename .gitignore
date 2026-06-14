@@ -9,7 +9,7 @@ logs/
 stripe_config.php
 
 # Database files
-*.sql
+#*.sql
 !database_table.sql.example
 !refund_tables.sql.example
 
